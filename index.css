@@ -10,7 +10,6 @@ body {
   padding: 0;
   margin: 0 auto;
   max-width: 2000px;
-
 }
 
 .main {
@@ -74,39 +73,39 @@ body {
 
 /* -------------------------------------------------------------------- */
 
-.paragraph_box{
+.paragraph_box {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 20px 0 20px 0;
 }
 
-.paragraph{
+.paragraph {
   width: 70%;
   text-align: center;
   font-size: 20px;
 }
 
 @media screen and (max-width: 570px) {
-  .paragraph{
+  .paragraph {
     width: 70%;
     text-align: center;
     font-size: 16px;
   }
 
-  .paragraph_box{
+  .paragraph_box {
     padding: 20px 0 0px 0;
   }
 }
 
 @media screen and (max-width: 430px) {
-  .paragraph{
+  .paragraph {
     width: 70%;
     text-align: center;
     font-size: 13px;
   }
 
-  .paragraph_box{
+  .paragraph_box {
     padding: 20px 0 0px 0;
   }
 }
@@ -251,115 +250,87 @@ body {
 }
 
 .quality_box {
-width: 100%;
-height: 500px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-position: relative;
-background-image: url("./assets/Frame7.png");
-background-size: 100% ;
-background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-image: url("./assets/Frame7.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 470px) {
   .quality_box {
-
     height: 600px;
-    
-    }
+  }
 }
 
 @media screen and (min-width: 560px) {
   .quality_box {
-
     height: 650px;
-    
-    }
+  }
 }
 
 @media screen and (min-width: 620px) {
   .quality_box {
-
     height: 800px;
-    
-    }
+  }
 }
 
 @media screen and (min-width: 746px) {
   .quality_box {
-
     height: 900px;
-    
-    }
+  }
 }
 
 @media screen and (min-width: 835px) {
   .quality_box {
-
     height: 1000px;
-    
-    }
+  }
 }
 
 @media screen and (min-width: 950px) {
   .quality_box {
-
     height: 500px;
-    
-    }
+  }
 }
-
 
 @media screen and (min-width: 1087px) {
   .quality_box {
-
     height: 600px;
-    
-    }
+  }
 }
 
 @media screen and (min-width: 1300px) {
   .quality_box {
-
     height: 700px;
-    
-    }
+  }
 }
 
 @media screen and (min-width: 1520px) {
   .quality_box {
-
     height: 800px;
-    
-    }
+  }
 }
-
 
 @media screen and (min-width: 1670px) {
   .quality_box {
-
     height: 900px;
-    
-    }
+  }
 }
 
 @media screen and (min-width: 1916px) {
   .quality_box {
-
     height: 1000px;
-    
-    }
+  }
 }
-
-
 
 @media screen and (max-width: 950px) {
   .quality_box {
-
     background-image: url("./assets/Frame8.png");
-    
-    }
+  }
 }
 
 /* .quality_img {
@@ -391,7 +362,7 @@ background-repeat: no-repeat;
   background-position: center;
 }
 
-.additionalOptions_text{
+.additionalOptions_text {
   text-align: center;
   color: #ffffff;
 }
@@ -401,7 +372,6 @@ background-repeat: no-repeat;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 @media screen and (max-width: 950px) {
@@ -448,9 +418,6 @@ background-repeat: no-repeat;
     height: 300px;
   }
 
-
-
-
   .additional_box {
     background-size: cover;
   }
@@ -458,7 +425,7 @@ background-repeat: no-repeat;
 
 /* ADDITIONAL */
 
-.additional{
+.additional {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -473,8 +440,8 @@ background-repeat: no-repeat;
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   align-items: center; */
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 @media screen and (max-width: 800px) {
@@ -483,20 +450,19 @@ background-repeat: no-repeat;
   }
 }
 
-
-.heading_option{
+.heading_option {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
 }
 
-.heading_option_text{
+.heading_option_text {
   font-weight: 400;
 }
 
-.a{
-  grid-row-start:1;
+.a {
+  grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -504,7 +470,6 @@ background-repeat: no-repeat;
   align-items: flex-end;
   justify-content: center;
 }
-
 
 @media screen and (max-width: 1050px) {
   .plansBox {
@@ -527,47 +492,38 @@ background-repeat: no-repeat;
   }
 }
 
-
 @media screen and (max-width: 950px) {
-  .slogan{
+  .slogan {
     font-size: 30px;
   }
 }
 
-
 @media screen and (max-width: 618px) {
-  .slogan{
+  .slogan {
     font-size: 20px;
   }
 }
-
 
 @media screen and (max-width: 700px) {
   .additional_options_box {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    
   }
-  
 }
 
-
-.queue{
+.queue {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.queue_box{
+.queue_box {
   width: 100%;
-
 }
-
-
 
 /* ПЕРЕВАГИ */
 
-.benefits_main{
+.benefits_main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -575,13 +531,13 @@ background-repeat: no-repeat;
   width: 100%;
 }
 
-.quality_box_main{
+.quality_box_main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.quality_img_main{
+.quality_img_main {
   width: 90%;
   height: 90%;
   border-radius: 20px;
@@ -589,6 +545,59 @@ background-repeat: no-repeat;
   padding: 0px 10px 0 10px;
 }
 
-.quality_img_main:last-child{
+.quality_img_main:last-child {
   margin-bottom: 0;
+}
+
+/* ПЕРЕВАГИ БЛОК */
+
+.benefits_box {
+  display: grid;
+  width: 85%;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 20px;
+  background-image: url("./assets/Frame.png");
+  color: #ffffff;
+  padding: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .benefits_box {
+    display: block;
+  }
+}
+
+.benefit_element {
+  display: flex;
+  align-items: center;
+  padding: 10px 90px 10px 90px;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.location_image{
+  align-self: center;
+  width: 80%;
+  height: 60%;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .location_image{
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
 }
